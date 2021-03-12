@@ -22,9 +22,7 @@ public class ProductionGenerator {
         else {
             throw new NumberFormatException("Invalid Number");
         }
-        //throw new IllegalArgumentException("demo");
-    }
-
+        
 }
 
 
