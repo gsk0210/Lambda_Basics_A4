@@ -19,7 +19,9 @@ public class ProductionGenerator {
             Production production = (lowerBound, upperBound) -> lowerBound == upperBound ? lowerBound :multiplication(lowerBound, upperBound);
             return production.generateFunction(n1,n2);
         }
-        return 0;
+        else {
+            throw new NumberFormatException("Invalid Number");
+        }
         //throw new IllegalArgumentException("demo");
     }
 
